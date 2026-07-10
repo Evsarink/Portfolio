@@ -1,0 +1,57 @@
+body {
+  font-family: 'Your Sans-Serif Font', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--warm-cream);
+  color: var(--coffee-brown);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Your Serif Font', serif;
+  margin: 0;
+  color: var(--dark-chocolate);
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--forest-green);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--sage-green);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.button {
+  background-color: var(--muted-terra-cotta);
+  color: var(--linen-white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--warm-amber);
+}

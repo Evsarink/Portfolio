@@ -1,0 +1,45 @@
+:root {
+  /* Color Palette */
+  --color-warm-cream: #f9f5e3;
+  --color-soft-beige: #e8d8c3;
+  --color-latte: #d6cfc4;
+  --color-coffee-brown: #7b5b4a;
+  --color-walnut: #5b3a29;
+  --color-dark-chocolate: #3b2a20;
+  --color-linen-white: #f4f1e6;
+  --color-parchment: #eae1d5;
+  
+  --color-sage-green: #b7c9a8;
+  --color-forest-green: #4a6e4d;
+  --color-muted-terra-cotta: #d6b6a8;
+  --color-warm-amber: #d9b77b;
+  --color-dusty-olive: #8b8c6a;
+
+  /* Typography */
+  --font-heading: 'SerifFont', serif; /* Replace with actual font name */
+  --font-body: 'SansSerifFont', sans-serif; /* Replace with actual font name */
+  --font-size-base: 16px;
+  --font-size-large: 2rem;
+  --font-size-medium: 1.5rem;
+  --font-size-small: 0.875rem;
+
+  /* Spacing */
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+
+  /* Shadows */
+  --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  /* Border Radii */
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 16px;
+
+  /* Animation Timings */
+  --animation-timing-fast: 0.2s;
+  --animation-timing-medium: 0.5s;
+  --animation-timing-slow: 1s;
+}
